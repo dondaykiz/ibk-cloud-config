@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    ibk-common-module:
+      path: /ibkcm/**
+      url: http://localhost:8002/common/api/v1
